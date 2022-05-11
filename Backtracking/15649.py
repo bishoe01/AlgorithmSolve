@@ -1,14 +1,13 @@
-N , M = map(int,input().split())
+n , m = map(int,input().split())
 arr = []
-visited = [False] * (N+1)
-
+visited = [False] * (n+1)
 
 def dfs():
-    if(len(arr) == M ):
+    if(len(arr)==m):
         print(' '.join(map(str,arr)))
         return
-    for i in range(1,N+1):
-        if(visited[i]):
+    for i in range(1,n+1):
+        if(visited[i]==True):
             continue
         visited[i] = True
         arr.append(i)
@@ -17,3 +16,4 @@ def dfs():
         visited[i] = False
 
 dfs()
+
