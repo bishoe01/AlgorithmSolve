@@ -3,7 +3,6 @@ arr = list(map(int,input().split()))
 tmp = 0;
 result = []
 
-
 for i in range(n):
     if(i == n-1 ):
         result.append(-1)
