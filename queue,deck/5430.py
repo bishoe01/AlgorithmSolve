@@ -7,7 +7,7 @@ for _ in range(n):
     num_e = int(input())
     arr = sys.stdin.readline().rstrip()[1:-1].split(",")
     array =deque(arr)
-    cnt = 0
+    cnt = 0 #R이 몇번나오는지 카운트
     if(num_e ==0 ):
         array = []
     for element in command:
