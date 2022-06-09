@@ -8,7 +8,6 @@ for _ in range(m):
     C = [] 
     for i in range(len(B)-1, -1,-1):
         C.append(B[i])
-
     if(B == C):
         print(0)
     else:
