@@ -10,3 +10,5 @@ class Game:
         self.player = []  # 캐릭터의 목록. start_game()에서 생성
 
 
+#이후 추가될 예정 
+
