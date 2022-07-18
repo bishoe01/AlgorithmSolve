@@ -1,4 +1,5 @@
-N , M = map(int,input().split())
+import sys
+N , M = map(int,sys.stdin.readline().split())
 box = [[0 for j in range(N+1)] for i in range(N+1)]
 
 for i in range(M):
