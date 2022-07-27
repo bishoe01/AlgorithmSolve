@@ -6,7 +6,7 @@ for _ in range(n):
 answer  = []
 
 def in_range(x,y):
-    return x<=1 and y<=1 and x<=n and y<=n
+    return 1<=x and 1<=y and x<=n and y<=n
 
 def can_go(x,y,current_num):
     return in_range(x,y) and grid[x][y] > current_num
